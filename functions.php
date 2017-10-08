@@ -2,7 +2,7 @@
 
 // Intrigrate Redux framework
 require_once ('inc/redux-framework-master/redux-framework.php');
-require_once ('inc/redux-framework-master/sample/theme-function.php');
+require_once ('inc/theme-function.php');
 
 // Style
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
