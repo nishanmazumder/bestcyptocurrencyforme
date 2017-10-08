@@ -1,0 +1,1 @@
+Just download reduxframework and past all file in there. 

@@ -1,0 +1,1 @@
+Just download netabox plugin and past all file in there. 
