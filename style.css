@@ -1,0 +1,666 @@
+/*
+ Theme Name:     Twenty Seventeen Child Theme for tristanbains
+ Theme URI:      http://www.code.nl/
+ Description:    A bare-bones child theme for use with WordPress Twenty Seventeen Theme.
+ Author:         Nishan Mazumder
+ Author URI:     https://github.com/nishanmazumder
+ Template:       twentyseventeen
+ Version:        1.0.0
+*/
+ 
+/* Add Custom CSS after this line */
+	
+/**
+ * Global Styles
+ */
+
+body{
+	margin:0px auto;
+	height:auto;
+	font-family: 'Lato', sans-serif;
+	overflow-x: hidden;
+}
+.cd-white-bg{
+	overflow-x: hidden;
+}
+
+/*********************
+	General Section
+**********************/
+.cd-wrapper{}
+.cd-main{}
+.cd-content{
+	
+}
+.cd-start-up-content{
+	width: 42%;
+	display: block;
+	margin: 0px auto;
+}
+.cd-post-page-content{
+	width: 65%;
+	display: block;
+	margin: 0px auto;
+}
+.cd-prv-link{
+	margin-top: 30px;
+}
+.cd-prv-link h4 strong a{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+    transition: .7s;
+}
+.cd-prv-link h4 strong a:hover{
+	text-decoration: none;
+	margin-left: 10px;
+}
+.container-fluid{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+/*********************
+	Top Section
+**********************/
+.cd-header{
+	padding-top: 10px;
+}
+.cd-site-logo img{
+	width: 100px;
+	opacity: .7;
+	cursor: pointer;
+	transition: .7s;
+}
+.cd-site-logo img:hover{
+	opacity: 1;
+}
+.header-icon{
+	margin-top: 15px;	
+}
+
+.header-icon{
+	list-style: none;
+}
+.header-icon li{
+	float: left;
+}
+.header-icon i{
+    font-size: 20px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+/*********************
+	Content Section
+**********************/
+.cd-big-title{
+	margin-top: 150px;
+	
+}
+.cd-big-title h1{
+	text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 60px;
+    display: inline-block;
+    opacity: .9;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+/*question page*/
+.cd-post-title{
+	margin: 25px auto;
+	width: 70%;
+}
+.cd-post-title h3{
+	font-size: 32px;
+	line-height: 40px;
+	letter-spacing: 1px;
+}
+.cd-start-up-content{}
+.cd-post-header{
+	padding: 60px 40px;
+	border-radius: 5px 5px 0px 0px;
+	margin-top: -35px;
+}
+.cd-post-header::before{
+    color: #186677;
+    background-size: 44px 36px, cover;
+    content: "";
+    position: absolute;
+    margin-left: -235px;
+    margin-top: -40px;
+    width: 44px;
+    height: 36px;
+}
+.cd-post-header::after{
+	color: #186677;
+    background-size: 44px 36px, cover;
+    content: "";
+    position: absolute;
+    margin-left: 195px;
+    margin-top: -85px;
+    width: 44px;
+    height: 36px;
+}
+.cd-post-header h1{
+	font-size: 34px;
+    font-weight:600;
+    color: #09455d;
+}
+.cd-feature-img img{
+	display: block;
+	position:relative;
+	margin: 0px auto;
+	width: 75px;
+	top: -35px;
+}
+.cd-startup-title{
+	display: block;
+	position: relative;
+	width: 50%;
+	font-weight: 600;
+	font-size: 16px;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 15px auto;
+}
+.cd-post-content{
+	padding: 40px;
+	margin-top: -75px;
+	margin-bottom: 30px;
+	border-radius: 0px 0px 5px 5px;
+}
+.cd-post-content p{
+	color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+	margin-top: 10px;
+}
+.cd-post-link{
+	display: block;
+	position: relative;
+	margin: 0px auto;
+}
+.cd-post-link button{
+    height: 50px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+	cursor: pointer;
+}
+.cd-post-link-social button{
+    height: 50px;
+    width: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+	cursor: pointer;
+	transition: .7s;
+}
+.cd-post-link-social button:last-child{
+	margin-left: 20px;
+}
+
+.cd-post-link-repeat{
+	margin-top: 35px;
+	font-size: 15px;
+	font-weight: 600;
+}
+.cd-post-link-repeat a:hover{
+	text-decoration: none;
+}
+.cd-advertisement img{
+	width: 100%;
+    margin-bottom: 30px;
+}
+
+/*Long answer*/
+.cd-long-feature img{
+	width: 120px;
+}
+.cd-post-content-header{
+	padding: 130px 90px;
+	margin-top: -65px;
+}
+
+.cd-headigns-long h1{
+	font-size: 48px;
+}
+.cd-post-meta{
+	font-size: 12px;
+	opacity: .7;
+}
+
+.cd-heading-content {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.cd-heading-content p{
+	line-height: 1.8;
+}
+.post-link-img img{
+	width: 100%;
+	margin-top: -100px;
+}
+.cd-post-content-long{
+    padding: 130px 90px 60px;
+    margin-top: -100px;
+}
+.cd-post-content-long p{
+	font-size: 18px;
+}
+.cd-post-link-long button{
+    height: 50px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+
+.cd-post-link-social-long button{
+    height: 50px;
+    width: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+	cursor: pointer;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.cd-post-link-social-long button:last-child{
+	margin-left: 20px;
+}
+
+.cd-post-link-long a{
+	font-size: 14px;
+	font-weight: 400;
+}
+.cd-post-link-long a:hover{
+	text-decoration: underline !important;
+	
+}
+
+/*Block area*/
+
+.cd-block-content{
+	margin-top: 80px;
+	margin-bottom: 200px;
+}
+
+.cd-block-title h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.block-header-icon{
+	margin-bottom: 150px;
+}
+
+.block-header-icon i{
+    font-size: 20px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.block-header-icon i:hover{
+	opacity: .7;
+}
+
+.cd-block{
+	transition: .7s;
+}
+.cd-block:hover{
+	cursor: pointer;
+	transform: scale(1.2, 1.2);
+}
+
+.cd-block p{
+	font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    display: inline-block;
+	border-radius: 15px;
+}
+
+.cd-block img{
+	width: 150px;
+    height: auto;
+    z-index: 1;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	position: relative;
+}
+/****block 2****/
+	.cd-page-border{
+		padding: 10px;
+	}
+	.cd-header-block-sub{
+		margin-top: 15px;
+	}
+	.cd-prv-link-block h4 strong a{
+		font-size: 20px;
+		font-weight: 600;
+		margin-left: 30px;
+		transition: .7s;
+	}
+	.cd-prv-link-block h4 strong a:hover{
+		text-decoration: none;
+		margin-left: 10px;
+	}
+	.cd-block-sub-title span{
+		font-weight: 600;
+		font-size: 15px;
+		border-radius: 20px;
+		padding: 10px 25px;
+		width: 30%;
+		margin: 0px auto;
+	}
+	.cd-block-title{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.cd-block-title h3{
+		letter-spacing: 1px;
+	}
+	
+	.cd-block-title:before{
+		content: "";
+		margin: 0px 70px;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		bottom: 0;
+		width: 15%;
+	}
+	.cd-block-title:after{
+		content: "";
+		margin: 0px 70px;
+		position: absolute;
+		top: 50%;
+		right: 0;
+		bottom: 0;
+		width: 15%;
+	}
+	.cd-block-title-box{
+		padding-left:200px;
+		padding-right:200px;
+	}
+	.cd-title-link{
+		background: #186677;
+		height: 3px;
+		width: 70%;
+	}
+/*********************
+	ticker Section
+**********************/
+.ticker {
+  margin: 60px auto;
+  padding: 20px 20px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  color:#fff;
+  background: transparent;
+}
+
+.ticker ul {
+  width: 100%;
+  position: relative;
+}
+
+.ticker ul li {
+  width: 100%;
+  line-height: 0px;
+  display: none;
+  font-size: 40px;
+  letter-spacing: 0.8px;
+
+}
+
+/*********************
+	Button Section
+**********************/
+.cd-btn{
+    padding: 22px 85px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    line-height: 32px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+/*********************
+	Nav Section
+**********************/
+.cd-navbar-nav{
+	list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.cd-navbar-nav li{
+	display: inline-block;
+}
+.cd-navbar-nav li a{
+	display: inline-block;
+    min-width: 20px;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 5px;
+    opacity: .8;
+	padding: .5rem 0.3rem;
+}
+.cd-navbar-nav li a:hover{
+	text-decoration: underline;
+}
+.cd-nav-text{
+	font-size: 16px;
+    font-weight: bold;
+    line-height: 14px;
+    margin: 25px;
+}
+
+/*******404********/
+
+.err-404-img img{
+	width: 500px;
+}
+
+/*********************
+	Footer Section
+**********************/
+
+.copyright-text p{
+	font-size: 14px;
+	padding: 15px 0px 0px 0px;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+@media only screen and (max-width:1030px){
+.cd-big-title{
+	margin-top: 140px;
+	
+}
+.cd-big-title h1{
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 40px;
+    width: 90%;
+    display: inline-block;
+    opacity: .9;
+}
+/*question*/
+.cd-start-up-content{
+	width: 55%;
+}
+
+/*long*/
+
+.cd-post-page-content{
+	width: 80%;
+}
+
+}
+
+@media only screen and (max-width:780px){
+.cd-nav-text{
+	margin: 25px auto;
+}
+
+/*question*/
+.cd-start-up-content{
+	width: 75%;
+}
+
+/*long*/
+.cd-post-page-content{
+	width: 100%;
+}
+/*Sub block*/
+.cd-block-title-box{
+		padding-left:20px;
+		padding-right:20px;
+	}
+.cd-block-title:before{
+		margin: 0px 20px;
+		width: 8%;
+	}
+	.cd-block-title:after{
+		margin: 0px 20px;
+		width: 8%;
+	}
+	.cd-prv-link-block h4 strong a {
+		font-size: 18px;
+		margin-left: 20px;
+	}
+}
+
+@media only screen and (max-width:650px){
+
+/*Front page*/
+.header-icon{
+	margin-left: 48%;
+	margin-top: 40px !important;
+}
+.cd-big-title{
+	margin-top: 40px;
+}
+.nav-item{
+    width: 15%;
+}
+.cd-navbar-nav{
+	margin: 0px auto !important;
+	text-align: center !important;
+}
+
+/*question*/
+.cd-start-up-content{
+	width: 95%;
+}
+
+.cd-post-link button{
+	display: block;
+	position: relative;
+	margin: 0px auto;
+	margin-top: 20px;
+	transition: .7s;
+}
+/*long*/
+.cd-post-content-header {
+    padding: 130px 15px;
+}
+
+/*sub block*/
+.cd-prv-link-block{
+	width: 300px;
+}
+
+}
+@media only screen and (max-width:490px){
+	/*Front page*/
+	.cd-nav-text {
+		text-align: center;
+	}
+
+	/*long*/
+		.cd-post-content-long{
+		padding: 50px 20px;
+		margin-top: 20px;
+	}
+	.cd-post-link-long button{
+	margin-right: 14%;
+	
+}
+.cd-post-content-header {
+    padding: 130px 25px;
+}
+
+.post-link-img{
+    margin-top: 150px;
+}
+/*Short*/
+
+.cd-post-header::before {
+    margin-left: -190px;
+}
+.cd-post-header::after {
+    margin-left: 145px;
+}
+/*block*/
+	.header-icon{
+		margin-left: 44%;
+	}
+	.cd-block-title{
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: -25px;
+	}
+	.cd-block-row{
+		width: 50% !important;
+	}
+/*Sub block*/
+
+.cd-block-sub-title {
+    margin-top: 45px;
+}
+	
+}
+
+@media only screen and (max-width:330px){
+	.cd-start-up-content{
+	width: 100%;
+}
+.cd-post-link button{
+	display: block;
+	position: relative;
+	margin: 0px auto;
+	margin-top: 20px;
+	font-size: 10px;	
+}
+
+}
